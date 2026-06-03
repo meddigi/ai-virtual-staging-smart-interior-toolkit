@@ -2,56 +2,24 @@
 
 ## 1. Project Overview
 
-Briefly explain the project goal.
-
----
+Briefly describe the space and client goal.
 
 ## 2. Current Space Analysis
 
-Describe:
+Explain the current condition, limitations, and opportunities.
 
-- Room condition
-- Lighting condition
-- Layout issues
-- Visual clutter
-- Renovation potential
+## 3. Recommended AI Visualization Direction
 
----
+Describe the recommended virtual staging or smart interior concept.
 
-## 3. Recommended Direction
+## 4. Prompt Strategy
 
-Select and explain:
+List the prompt direction, style, lighting, and constraints.
 
-- Virtual staging
-- Empty room conversion
-- Luxury interior concept
-- Smart lighting concept
-- Smart interior automation
+## 5. Review Checklist
 
----
-
-## 4. AI Visualization Plan
-
-Explain how AI visuals will be created and reviewed.
-
----
-
-## 5. Expected Benefits
-
-Examples:
-
-- Better property presentation
-- Higher buyer interest
-- Clearer renovation direction
-- Stronger SNS and marketing content
-- Improved customer understanding
-
----
-
-## 6. Next Steps
-
-- Collect original photos
-- Define desired style
-- Generate AI concepts
-- Review results
-- Prepare listing copy or renovation proposal
+- Room structure preserved
+- Realistic lighting
+- No distorted windows or walls
+- Suitable for target customer
+- Ready for listing, proposal, or SNS content

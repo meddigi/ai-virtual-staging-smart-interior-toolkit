@@ -2,13 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.2.0 - Web Prompt Generator Release
+
+- Added browser-based prompt generator
+- Added `index.html`
+- Added CSS and JavaScript assets
+- Added copy-to-clipboard support
+- Added room type, output goal, style, lighting mood, and purpose selectors
+- Added Korean guidance section
+- Added GitHub Pages setup guide
+- Improved README for practical usage
+
 ## 0.1.1 - Documentation Update
 
 - Added contributing guide
 - Added changelog
 - Added recommended use cases
 - Improved open-source project structure
-- Added clearer contribution standards for prompts and workflows
 
 ## 0.1.0 - Initial Release
 

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Virtual Staging & Smart Interior Prompt Generator</title>
+  <meta name="description" content="Open-source prompt generator for AI real estate virtual staging, renovation visualization, and smart interior concept design." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <p class="eyebrow">Open-source AI prompt toolkit</p>
+      <h1>AI Virtual Staging & Smart Interior Prompt Generator</h1>
+      <p class="lead">
+        Create structured prompts for real estate virtual staging, renovation visualization, smart lighting, home cinema, and therapy room concepts.
+      </p>
+    </div>
+  </header>
+
+  <main class="container app-layout">
+    <section class="panel form-panel" aria-labelledby="generator-title">
+      <h2 id="generator-title">Prompt Generator</h2>
+      <p class="helper">
+        Select the options below, then generate a prompt you can copy into an AI image generation tool.
+      </p>
+
+      <div class="form-grid">
+        <label>
+          Room Type
+          <select id="roomType">
+            <option value="living room">Living room</option>
+            <option value="bedroom">Bedroom</option>
+            <option value="kitchen">Kitchen</option>
+            <option value="dining room">Dining room</option>
+            <option value="studio apartment">Studio apartment</option>
+            <option value="home office">Home office</option>
+            <option value="empty apartment room">Empty apartment room</option>
+            <option value="home cinema room">Home cinema room</option>
+            <option value="therapy room">Therapy room</option>
+          </select>
+        </label>
+
+        <label>
+          Output Goal
+          <select id="goal">
+            <option value="emptyRoom">Empty room conversion</option>
+            <option value="virtualStaging">Real estate virtual staging</option>
+            <option value="renovation">Renovation before/after visualization</option>
+            <option value="smartLighting">Smart lighting concept</option>
+            <option value="luxuryInterior">Luxury interior concept</option>
+            <option value="homeCinema">Home cinema concept</option>
+            <option value="therapyRoom">Therapy room concept</option>
+          </select>
+        </label>
+
+        <label>
+          Interior Style
+          <select id="style">
+            <option value="warm modern premium apartment">Warm modern premium apartment</option>
+            <option value="minimal modern interior">Minimal modern interior</option>
+            <option value="luxury hotel-inspired interior">Luxury hotel-inspired interior</option>
+            <option value="Scandinavian calm interior">Scandinavian calm interior</option>
+            <option value="Korean premium apartment style">Korean premium apartment style</option>
+            <option value="soft beige and warm grey interior">Soft beige and warm grey interior</option>
+            <option value="high-end smart interior design">High-end smart interior design</option>
+          </select>
+        </label>
+
+        <label>
+          Lighting Mood
+          <select id="lighting">
+            <option value="soft indirect lighting with comfortable brightness and no harsh glare">Soft indirect lighting</option>
+            <option value="bright natural daylight with clean real estate photography quality">Bright natural daylight</option>
+            <option value="warm ambient lighting for a relaxing residential atmosphere">Warm ambient lighting</option>
+            <option value="smart RGB ambient lighting used subtly and realistically">Subtle smart RGB ambient lighting</option>
+            <option value="cinematic home theater lighting with controlled brightness">Cinematic home theater lighting</option>
+            <option value="calming therapy lighting with soft colors and a peaceful mood">Calming therapy lighting</option>
+          </select>
+        </label>
+
+        <label>
+          Image Purpose
+          <select id="purpose">
+            <option value="professional real estate listing">Professional real estate listing</option>
+            <option value="interior renovation proposal">Interior renovation proposal</option>
+            <option value="smart interior concept presentation">Smart interior concept presentation</option>
+            <option value="SNS marketing content">SNS marketing content</option>
+            <option value="client consultation concept image">Client consultation concept image</option>
+          </select>
+        </label>
+
+        <label>
+          Language Helper
+          <select id="languageMode">
+            <option value="english">English prompt only</option>
+            <option value="englishKorean">English prompt with Korean explanation</option>
+          </select>
+        </label>
+      </div>
+
+      <fieldset class="checkbox-group">
+        <legend>Preserve / Avoid</legend>
+        <label><input type="checkbox" id="preserveStructure" checked /> Preserve original architecture</label>
+        <label><input type="checkbox" id="avoidDistortion" checked /> Avoid distorted room proportions</label>
+        <label><input type="checkbox" id="realisticOnly" checked /> Keep the result realistic</label>
+        <label><input type="checkbox" id="noNightclub" checked /> Avoid nightclub-like neon lighting</label>
+      </fieldset>
+
+      <div class="button-row">
+        <button id="generateBtn" type="button">Generate Prompt</button>
+        <button id="copyBtn" type="button" class="secondary">Copy Prompt</button>
+        <button id="resetBtn" type="button" class="ghost">Reset</button>
+      </div>
+    </section>
+
+    <section class="panel output-panel" aria-labelledby="output-title">
+      <h2 id="output-title">Generated Prompt</h2>
+      <textarea id="output" rows="18" spellcheck="false"></textarea>
+      <p id="copyStatus" class="copy-status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <section class="container notes">
+    <h2>한국어 사용 안내</h2>
+    <p>
+      이 도구는 부동산 사진, 공실 변환, 리노베이션 전후 이미지, 스마트조명 콘셉트, 홈시네마, 테라피룸 이미지를 만들 때 사용할 프롬프트를 자동으로 구성해줍니다.
+    </p>
+    <p>
+      생성된 영어 프롬프트를 복사해서 AI 이미지 생성 도구에 붙여넣으면 됩니다. 실제 매물 사진을 사용할 때는 건축 구조, 창문, 바닥, 벽 위치가 바뀌지 않도록 검수하는 것이 중요합니다.
+    </p>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>MIT License · Open-source prompt generator for AI virtual staging and smart interior design.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

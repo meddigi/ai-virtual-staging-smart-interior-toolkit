@@ -41,9 +41,7 @@ Briefly explain what this prompt is for.
 
 ## Prompt
 
-```text
 Write the full prompt here.
-```
 
 ## Notes
 
@@ -58,18 +56,6 @@ Add usage tips, limitations, or recommended settings.
 4. Submit a pull request.
 5. Explain what you changed and why it is useful.
 
-## Quality Standard
-
-Before submitting, please check:
-
-- Does the prompt preserve the original room structure?
-- Is the output goal clear?
-- Is the language simple and practical?
-- Can a non-technical user understand it?
-- Is the result useful for real estate, interior design, renovation, or smart interior work?
-
 ## Korean Summary
 
-이 프로젝트는 부동산 가상 스테이징, 리노베이션 시각화, 스마트 인테리어 콘셉트 디자인을 위한 오픈소스 프롬프트 및 워크플로우 툴킷입니다.
-
-기여자는 새로운 프롬프트, 작업 흐름, 예시 문구, 다국어 번역, 스마트조명/스마트홈 시나리오 등을 추가할 수 있습니다.
+이 프로젝트는 부동산 가상 스테이징, 리노베이션 시각화, 스마트 인테리어 콘셉트 디자인을 위한 오픈소스 프롬프트 생성기 및 워크플로우 툴킷입니다.
