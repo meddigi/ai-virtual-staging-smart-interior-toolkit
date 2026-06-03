@@ -102,3 +102,43 @@ Do not change the architectural layout.
 ## License
 
 This project is licensed under the MIT License.
+
+# README Add-on Section
+
+Copy and paste the section below into your `README.md`.
+
+---
+
+## Use Cases
+
+This toolkit can be used for:
+
+- Real estate virtual staging
+- Empty room conversion
+- Renovation before/after visualization
+- Smart lighting concept design
+- Smart interior proposal preparation
+- Home cinema concept generation
+- Therapy room concept generation
+- Real estate listing copywriting
+- SNS content creation for interior and renovation companies
+- AI prompt education for non-technical real estate and interior professionals
+
+## Why This Project Matters
+
+Real estate agents, interior designers, renovation companies, and smart home professionals often need to show the potential of a space before it is renovated, staged, or fully furnished.
+
+However, many non-technical users do not know how to write effective prompts for AI image generation and design visualization tools.
+
+This project provides practical, reusable, and easy-to-understand prompt templates and workflows so that professionals can create better AI-powered visual concepts without advanced prompt engineering knowledge.
+
+## Planned Improvements
+
+- More room-specific prompt templates
+- Multilingual prompt examples
+- Smart home automation scenario prompts
+- AI image review checklist
+- Web-based prompt generator
+- Before/after renovation prompt workflows
+- Smart lighting and home cinema prompt packs
+
